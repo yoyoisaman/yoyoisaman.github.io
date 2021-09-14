@@ -5,10 +5,10 @@
     
     <entry>
       <title>架站</title>
-      <link href="/2021/09/12/%E6%9E%B6%E7%AB%99/"/>
-      <url>/2021/09/12/%E6%9E%B6%E7%AB%99/</url>
+      <link href="/2021/09/14/%E6%9E%B6%E7%AB%99/"/>
+      <url>/2021/09/14/%E6%9E%B6%E7%AB%99/</url>
       
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>正所謂萬物始難，腦子一抽打算架個 blog ，居然花了我快一個星期，雖然大部分都只是在浪費時間跟打 APEX 。<br>話說在台灣這東西到底叫什麼，大陸他們叫博客，翻成英文是 blog ，那應該叫成部落格嗎?<br>但是在台灣感覺部落格會讓人想到無名小站之類的地方，還是叫 blog 好了。</p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>在找 galgame 心得時看到了<a href="https://plumz.me/about.html">plum的blog</a>，想說這麼炫泡的東西不搞一個實在是對不起我自己資工系。<br>雖然我是資工系，但我讀日文的時間比讀本科多大概一倍到兩倍就是了。<br>然而卻仍然還是啞巴日文。</p><p>架站過程參考了<a href="https://shiraha.cn/about/">七海的參考書</a>，不知道用什麼分類就去抄一下，真的幫了我很大的忙。<br>然後寫文章要會 markdown ，這點需要注意。</p><h2 id="隨機背景圖片"><a href="#隨機背景圖片" class="headerlink" title="隨機背景圖片"></a>隨機背景圖片</h2><p>架起來是蠻簡單的，困難的是挑選主題還有客製化。</p><p>比如說，卡了我最久的其實是隨機顯示封面的功能，找隨機圖庫的 api 時發現不能訂製我想要的圖片。<br>用 vercel 自己架，過一天 api 就爆炸了。<br>最後當我想用 apache 部屬時，發現這個 hexo 的主題其實本來就自帶隨機顯示的功能了。<br>氣的我又打開APEX。</p><p>這告訴了我以後真的要好好看手冊。</p><h2 id="尚未實現功能"><a href="#尚未實現功能" class="headerlink" title="尚未實現功能"></a>尚未實現功能</h2><ul><li><input disabled="" type="checkbox"> blog 的分類功能與 tag 功能目前是擺設</li><li><input disabled="" type="checkbox"> 文章要怎麼插圖片要研究一下</li><li><input disabled="" type="checkbox"> 還有一些會出現簡體字的地方</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>一些不重要的東西，架站原因之類的。</p><span id="more"></span><h2 id="博客還是什麼的"><a href="#博客還是什麼的" class="headerlink" title="博客還是什麼的"></a>博客還是什麼的</h2><p>正所謂萬物始難，腦子一抽打算架個 blog ，居然花了我快一個星期。<br>雖然大部分都只是在浪費時間跟打 APEX </p><p>話說在台灣這東西到底叫什麼，大陸他們叫博客，翻成英文是 blog ，那應該叫成部落格嗎<br>但是在台灣感覺部落格會讓人想到無名小站之類的地方，還是叫 blog 好了</p><p>順帶一提，本站以 hexo 的 hexo-theme-volantis 主題部屬於 GitHub，使用 vercel 加速<br>想架的人建議要會一點 git。</p><h2 id="架站原因"><a href="#架站原因" class="headerlink" title="架站原因"></a>架站原因</h2><p>在找 galgame 心得時看到了<a href="https://plumz.me/about.html">plum的blog</a>，想說這麼炫泡的東西不搞一個實在是對不起我自己資工系。<br>雖然我是資工系，但我讀日文的時間比讀本科多大概一倍到兩倍就是了。<br>然而卻仍然還是啞巴日文，不過啃生肉的速度越來越快實在令人欣喜。</p><p>架站過程參考了<a href="https://shiraha.cn/about/">七海的參考書</a>，不知道用什麼分類就去抄一下，真的幫了我很大的忙。</p><h2 id="隨機背景圖片"><a href="#隨機背景圖片" class="headerlink" title="隨機背景圖片"></a>隨機背景圖片</h2><p>blog 架起來是蠻簡單的，困難的是挑選主題還有客製化。</p><p>比如說，卡了我最久的其實是隨機顯示背景的功能，找隨機圖庫的 api 時發現不能別人架的不能訂製我想要的圖片。<br>用 vercel 自己架，過一天 api 就爆炸了。<br>最後當我想用 apache 部屬圖床時，發現這個 hexo 的主題其實本來就自帶隨機顯示的功能了。<br>氣的我又打開APEX。</p><p>這告訴了我以後真的要好好看手冊</p><h2 id="尚未實現功能"><a href="#尚未實現功能" class="headerlink" title="尚未實現功能"></a>尚未實現功能</h2><p>1.blog 的 categories 功能與 tag 功能目前是擺設。<br>2.文章要怎麼插圖片要研究一下。<br>3.還有一些會出現簡體字的地方。<br>4.把我的作品心得轉移過來。<br>5.還沒測試的留言系統。<br>6.<strong>關於</strong>頁面是空白的。</p>]]></content>
       
       
       
