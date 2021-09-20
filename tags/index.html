@@ -5,8 +5,6 @@
   <!-- SEO相关 -->
   
     
-      <meta name="robots" content="noindex,follow">
-    
   
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
@@ -24,7 +22,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>Archive: 2021 - yoyoisaman&#39;s Blog</title>
+  <title>所有標籤 - yoyoisaman&#39;s Blog</title>
   
 
   
@@ -104,7 +102,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header auto shadow blur " style='opacity: 0' >
+<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -259,7 +257,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  dock' style="display: ;">
+        <div id="full" class='cover-wrapper tag dock' style="display: none;">
           
             <div id='cover-backstretch'></div>
           
@@ -322,71 +320,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper" id="pjax-container">
           
 
+
 <div class='l_main'>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
   
     
-    <h2 class="article-title" >
-      <a href="/2021/09/14/%E6%9E%B6%E7%AB%99/">
-        架站
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      <p>一些不重要的東西，架站原因之類的。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2021-09-14</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E9%9B%9C%E8%AB%87/">雜談</a>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2021/09/14/%E6%9E%B6%E7%AB%99/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
+      <div class='post-wrapper'>
+        <article id="tag" class="post article white-box reveal shadow">
+          <h2>所有標籤</h2>
+          <div class="all-tags">
+            
+            
           </div>
-        
-      
+          <br>
+          
+        </article>
+      </div>
     
-  </section>
   
-    
-  
-
-
-	
 </div>
 <aside class='l_side'>
   
@@ -394,98 +344,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
 
-<section class="widget blogger shadow desktop mobile">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box circle' href='/about/'>
-          <img no-lazy src='https://bu.dusays.com/2021/09/11/97b536453c297.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>yoyoisaman</h2>
-        
-        
-          <p>架完站就不想寫東西了</p>
-
-        
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="mailto:yoyoisaman@gmail.com"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/yoyoisaman"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://www.youtube.com/watch?v=b-tCoqk1GNk"
-              class="social fas fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-  
-
-  
-    
-    
-  
-
-  <section class="widget category shadow desktop">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分類</span></a>
-    
-  </header>
 
 
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E9%9B%9C%E8%AB%87/" href="/categories/%E9%9B%9C%E8%AB%87/"
-            id="categoriesE99B9CE8AB87"
-            ><div class='name'>雜談</div><div class='badge'>(1)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-  
-
-  
-    
-    
-
-  
 
   
 
@@ -506,14 +366,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.remove("show");
+  l_header.classList.add("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="half";
-    cover_wrapper.style.display="";
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
     
   
 </script>
